@@ -11,6 +11,11 @@
       </h4>
       <i class="el-icon-plus"></i>
     </div>
+    <el-date-picker
+      v-model="time"
+      type="date"
+      placeholder="选择日期">
+    </el-date-picker>
   </div>
 </template>
 
@@ -19,7 +24,8 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      value: ''
+      value: '',
+      time: ''
     }
   },
   methods: {
