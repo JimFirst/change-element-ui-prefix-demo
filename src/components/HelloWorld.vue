@@ -3,6 +3,14 @@
     <div>
       element-ui的组件前缀和样式前缀都被替换成gp了，请打开控制台查看。
     </div>
+    <el-row :gutter="20">
+      <el-col :span="12" :offset="0">
+        col-12
+      </el-col>
+      <el-col :span="8" :offset="0">
+        col-8
+      </el-col>
+    </el-row>
     <el-input v-model="value" size="normal" clearable></el-input>
     <el-button type="primary" size="default" @click="test">弹出确认框</el-button>
     <div>
