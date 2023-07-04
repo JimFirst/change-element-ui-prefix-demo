@@ -53,3 +53,6 @@ module.exports = {
 }
 
 ```
+
+### 注意
+el-container direction为vertical时，需要主动声明，目前**子元素中有 el-header 或 el-footer 时为 vertical**不会生效

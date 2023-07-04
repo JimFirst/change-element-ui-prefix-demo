@@ -2,7 +2,7 @@
   <div>
     <el-container>
       <el-aside width="200px">Aside</el-aside>
-      <el-container>
+      <el-container direction="vertical">
         <el-header>Header</el-header>
         <el-main>Main</el-main>
         <el-footer>Footer</el-footer>
